@@ -1,0 +1,22 @@
+.generate{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.generate a{
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.name {
+    font-size: 2em;
+    font-weight: bold;
+}
+.scan{
+    font-size: 2em;
+}
+.qrcode{
+    margin-bottom: 4em;
+}

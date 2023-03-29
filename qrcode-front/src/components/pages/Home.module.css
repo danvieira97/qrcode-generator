@@ -1,0 +1,46 @@
+.container{
+    margin: 2em;
+}
+.container span{
+    font-size: 2em;
+    font-weight: bold;
+}
+.form{
+    margin-top: 2em;
+}
+.form div{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+.label{
+    text-align: center;
+    min-width: 10%;
+    border-radius: 8px;
+    border: 2px solid #ececec;
+    padding: 2em;
+    background-color: #808080;
+}
+
+.input{
+    min-width: 70%;
+    border-radius: 8px;
+    border: 2px solid #ececec;
+    padding: 2em;
+}
+
+.button {
+    min-width: 30%;
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 8px;
+    border: 2px solid #ececec;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
