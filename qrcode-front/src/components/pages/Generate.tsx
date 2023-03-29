@@ -9,7 +9,7 @@ function Generate() {
   const location = useLocation();
   const name = location.state.name;
   const path = location.state.path;
-  const url = `http://localhost:3000/${path}`;
+  const url = `http://localhost:5173/${path}`;
 
   function handleGenerate() {
     const link_url = url;
