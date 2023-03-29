@@ -2,7 +2,7 @@
 <img src="./.github/qrcodegenerator.png"/>
 </p>
 
-[English](https://github.com/danvieira97/qrcode-generatorREADME-en.md)
+[English](https://github.com/danvieira97/qrcode-generator/blob/main/README-en.md)
 
 ## 💻 Sobre
 
