@@ -15,6 +15,10 @@ function Home() {
 
   const submit = (e: any) => {
     e.preventDefault();
+    if(name === "" || github === "" || linkedin === "") {
+      alert("Please enter all inputs")
+      return
+    }
     const path = name.split(" ").join("").toLowerCase();
     const qrCode = {
       name: name,
