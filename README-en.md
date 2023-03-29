@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./.github/qrcodegenerator.png"/>
+<img src="../.github/qrcodegenerator.png"/>
 </p>
 
 ## 💻 About
