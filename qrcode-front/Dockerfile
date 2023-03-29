@@ -12,4 +12,5 @@ RUN npm install
 COPY . /usr/src/app
 
 EXPOSE 5173
+CMD [ "npm", "build"]
 CMD [ "npm", "run", "dev"]
