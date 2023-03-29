@@ -33,24 +33,37 @@ Follow the steps below to be able to use the application on your machine.
 
 1. Install Docker Desktop by [clicking here](https://www.docker.com/products/docker-desktop/)
 
+2. Intall Node.js and npm by [how to install Node.js](https://www.pluralsight.com/guides/getting-started-with-nodejs)
 
-2.  Clone the application on your local machine with the following commands:
+3.  Clone the application on your local machine with the following commands:
 
 ```
 git clone https://github.com/danvieira97/qrcode-generator.git
 ```
 
-3. Then, go to your project directory using the command
+4. Then, go to your project directory using the command
 
 ```bash
 cd qrcode-generator
 ```
 
-4. Initialize the project containers by `docker compose up -d`:
+5. Install the project dependencies with `npm`:
 
 ```bash
-cd ./qrcode-front && docker compose up -d
-cd ./qrcodegenerator && docker compose up -d
+cd ./qrcode-front && npm install
+cd ./qrcodegenerator && npm install
 ```
 
-5. If you are not redirected to the browser, navigate to [localhost](http://localhost:5173)
+6. Initialize the project containers with `docker compose up -d`:
+
+```bash
+cd ./qrcode-front && docker compose up --build
+cd ./qrcodegenerator && docker compose up --build
+```
+
+7. If you are not redirected to the browser, navigate to [localhost](http://localhost:5173)
+
+8. If qrcode-front has a problem uploading the container, due to architecture incompatibility:
+```bash
+cd ./qrcode-front && npm run dev
+```
