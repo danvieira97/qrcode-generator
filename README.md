@@ -43,7 +43,7 @@ Siga os seguintes passos para poder utilizar a aplicação em sua máquina.
 git clone https://github.com/danvieira97/qrcode-generator.git
 ```
 
-3. Depois, vá até o diretório do seu projeto utilizando o comando
+4. Depois, vá até o diretório do seu projeto utilizando o comando
 
 ```bash
 cd qrcode-generator
